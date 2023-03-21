@@ -6,9 +6,9 @@ import time
 
 # Define InfluxDB settings
 influxdb_url = "http://10.14.0.42:8086"
-influxdb_token = "<your-influxdb-token>"
-influxdb_org = "<your-influxdb-org>"
-influxdb_bucket = "<your-influxdb-bucket>"
+influxdb_token = "lESwb-iId08_zwfuqhDSoBoZn_U3nMsPB4G_o1lyEGu07ztWGDaoeam34ZGK41DZgw9Q4Aho_7t_mghiJ6Rqrg=="
+influxdb_org = "TestOrg"
+influxdb_bucket = "TestBucket"
 
 # Connect to the InfluxDB client and get a write API
 client = InfluxDBClient(url=influxdb_url, token=influxdb_token, org=influxdb_org)
