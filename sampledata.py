@@ -5,7 +5,7 @@ import random
 import time
 
 # Define InfluxDB settings
-influxdb_url = "http://localhost:8086"
+influxdb_url = "http://10.14.0.42:8086"
 influxdb_token = "<your-influxdb-token>"
 influxdb_org = "<your-influxdb-org>"
 influxdb_bucket = "<your-influxdb-bucket>"
