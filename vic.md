@@ -29,7 +29,7 @@
 ### alma
 root leonard321
 
-vi: esc + : + w + q
+vi : esc + : + w + q
 
 1. nmcli con mod ens33 ipv4.addresses 192.168.2.20/24    
 2. nmcli con mod ens33 ipv4.gateway 192.168.2.1
