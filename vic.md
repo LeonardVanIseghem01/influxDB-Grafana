@@ -40,8 +40,3 @@ vi : esc + : + w + q
 https://github.com/LeonardVanIseghem01/influxDB-Grafana
 
 docker compose up -d 
-
-## idrac
-
-
-## esxi
