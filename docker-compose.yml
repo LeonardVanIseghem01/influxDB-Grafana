@@ -1,7 +1,7 @@
 version: "3.6"
 services:
   influxdb:
-    image: influxdb:1.8-alpine
+    image: influxdb:latest
     container_name: influxdb
     restart: always
     ports:
@@ -17,7 +17,6 @@ services:
       - INFLUXDB_REPORTING_DISABLED=true
       - INFLUXDB_USER=${INFLUXDB_USER:-testuser}
       - INFLUXDB_USER_PASSWORD=${INFLUXDB_USER_PASSWORD:-testpass}
-
   grafana:
     image: grafana/grafana
     container_name: grafana-server
