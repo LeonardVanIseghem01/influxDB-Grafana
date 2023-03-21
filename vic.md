@@ -38,7 +38,7 @@
 
 8. datastore iso file
 
-### alma
+## influxBD&Grafana (alma)
 
 root leonard321
 
@@ -56,8 +56,10 @@ vi : esc + : + w + q
 
 https://github.com/LeonardVanIseghem01/influxDB-Grafana
 
+## docker
+
 docker compose up -d
 
 docker compose stop
 
-
+docker container ls
