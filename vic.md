@@ -4,7 +4,7 @@
 
 1. verbinden met kabel
 
-2. ip in range 10.13.254.0 /16
+2. ip in range 10.13.254.0 /16  (dhcp werkt dus is niet nodig)
 
 3. default gateway 10.10.0.1
 
