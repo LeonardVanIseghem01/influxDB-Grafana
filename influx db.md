@@ -8,4 +8,3 @@
 - [Using the Mosquitto_ctrl Tool ](http://www.steves-internet-guide.com/using-the-mosquitto_ctrl-tool/)
 - [Understanding and Using the Mosquitto Dynamic Security Plugin ](http://www.steves-internet-guide.com/understanding-mosquitto-dynamic-security-plugin/)
 - [Mosquitto Dynamic Security Plugin ](https://mosquitto.org/documentation/dynamic-security/)
-
